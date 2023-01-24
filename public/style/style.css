@@ -68,10 +68,11 @@ a {
 }
 
 .my-name {
-  padding: 20px 0;
+  padding: 40px 0;
   color: white;
   font-size: 4rem;
   text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media(max-width: 700px) {
@@ -114,6 +115,7 @@ a {
   .nav-branding {
     display: block;
     font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 
   .my-name {
