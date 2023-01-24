@@ -67,6 +67,13 @@ a {
   background-color: white;
 }
 
+.my-name {
+  padding: 20px 0;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
 @media(max-width: 700px) {
   .hamburger {
     display: block;
@@ -107,5 +114,9 @@ a {
   .nav-branding {
     display: block;
     font-size: 2rem;
+  }
+
+  .my-name {
+    display: none;
   }
 }
