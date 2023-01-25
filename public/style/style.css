@@ -29,6 +29,8 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  border-bottom: solid 0.1em rgb(71, 145, 163);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-menu {
@@ -67,12 +69,67 @@ a {
   background-color: white;
 }
 
+.separator {
+  display: block;
+  width: 800px;
+  height: 1px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.my-name-container {
+  padding-top: 40px;
+}
+
 .my-name {
-  padding: 40px 0;
   color: white;
   font-size: 4rem;
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.what-i-do-container {
+  width: 47vw;
+}
+
+.what-i-do {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(182, 182, 182);
+}
+
+@media(max-width: 900px) {
+  .separator {
+    display: block;
+    width: 650px;
+    height: 1px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+  .my-name {
+    color: white;
+    font-size: 3.8rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .what-i-do {
+    font-size: 1rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .what-i-do-container {
+    width: 100vw;
+  }
 }
 
 @media(max-width: 700px) {
@@ -119,6 +176,31 @@ a {
   }
 
   .my-name {
-    display: none;
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .what-i-do-container {
+    width: 100vw;
+  }
+
+  .what-i-do {
+    font-size: 0.8rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .separator {
+    display: block;
+    width: 92vw;
+    height: 1px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
   }
 }
