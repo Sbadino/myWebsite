@@ -92,7 +92,7 @@ a {
 }
 
 .what-i-do-container {
-  width: 47vw;
+  width: 800px;
 }
 
 .what-i-do {
@@ -144,7 +144,7 @@ a {
 
   .my-name {
     color: white;
-    font-size: 3.8rem;
+    font-size: 4rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -156,13 +156,13 @@ a {
   }
 
   .what-i-do {
-    font-size: 1rem;
+    font-size: 1.02rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
 
   .what-i-do-container {
-    width: 100vw;
+    width: 650px;
   }
 }
 
@@ -211,7 +211,7 @@ a {
 
   .my-name {
     color: white;
-    font-size: 10vw;
+    font-size: 4rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -221,7 +221,7 @@ a {
   }
 
   .what-i-do {
-    font-size: 1rem;
+    font-size: 1.02rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -259,7 +259,7 @@ a {
   }
 
   .what-i-do {
-    font-size: 6vw;
+    font-size: 4vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
