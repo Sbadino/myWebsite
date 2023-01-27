@@ -72,7 +72,7 @@ a {
   display: block;
   width: 800px;
   height: 1px;
-  margin: 5px auto;
+  margin: 20px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
@@ -91,7 +91,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.what-i-do-container {
+/* .what-i-do-container {
   width: 47vw;
 }
 
@@ -100,12 +100,12 @@ a {
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
   color: rgb(182, 182, 182);
-}
+} */
 
 .icon {
   color: white;
   font-size: 25px;
-  margin: 20px 15px;
+  margin: 40px 15px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.2s ease-in-out;
@@ -118,6 +118,21 @@ a {
   transform: scale(1.2);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.fswd-container {
+  width: 800px;
+  padding: 35px 0;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.fswd {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
 }
 
 @media(max-width: 900px) {
@@ -134,7 +149,13 @@ a {
     transition: all 0.3s ease-in-out;
   }
 
-  .what-i-do {
+  .fswd-container {
+    width: 650px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* .what-i-do {
     font-size: 1rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -142,7 +163,7 @@ a {
 
   .what-i-do-container {
     width: 100vw;
-  }
+  } */
 }
 
 @media(max-width: 700px) {
@@ -191,13 +212,11 @@ a {
   .my-name {
     color: white;
     font-size: 10vw;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
 
-  .what-i-do-container {
+  /* .what-i-do-container {
     width: 100vw;
   }
 
@@ -205,12 +224,23 @@ a {
     font-size: 1rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
+  } */
 
   .separator {
     width: 92vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+  }
+
+  .fswd-container {
+    width: 92vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fswd {
+    font-size: 5vw;
+    color: white;
   }
 }
 
@@ -224,7 +254,7 @@ a {
     transition: all 0.3s ease-in-out;
   }
 
-  .what-i-do-container {
+  /* .what-i-do-container {
     width: 90vw;
   }
 
@@ -232,5 +262,5 @@ a {
     font-size: 6vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
+  } */
 }
