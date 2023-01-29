@@ -135,6 +135,101 @@ a {
   color: white;
 }
 
+.strk-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding-top: 50px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.strk {
+  padding-right: 30px;
+  padding-top: 5px;
+  height: 40px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(182, 182, 182);
+  text-align: left;
+}
+
+.strk-github {
+  color: rgb(182, 182, 182);
+  padding-top: 5px;
+  font-size: 25px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.strk-github:hover {
+  color: rgb(71, 145, 163);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.starknights-img-container {
+  position: relative;
+  width: 800px;
+}
+
+.starknights {
+  opacity: 1;
+  display: block;
+  width: 800px;
+  height: auto;
+  padding: 13px 0;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.starknights:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.starknights-img-container:hover .starknights {
+  opacity: 0.4;
+}
+
+.starknights-img-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border-radius: 8px;
+  background-color: rgb(71, 145, 163);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 @media(max-width: 900px) {
   .separator {
     width: 650px;
@@ -163,6 +258,24 @@ a {
 
   .what-i-do-container {
     width: 650px;
+  }
+
+  .strk-container {
+    width: 650px;
+  }
+
+  .starknights-img-container {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .starknights {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -241,6 +354,26 @@ a {
   .fswd {
     font-size: 5vw;
     color: white;
+  }
+
+  .strk-container {
+    width: 92vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .starknights-img-container {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .starknights {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
