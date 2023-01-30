@@ -201,7 +201,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.middle {
+.strk-middle {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -216,13 +216,124 @@ a {
   opacity: 0.4;
 }
 
-.starknights-img-container:hover .middle {
+.starknights-img-container:hover .strk-middle {
   opacity: 1;
 }
 
-.text {
+.strk-text {
   border-radius: 8px;
   background-color: rgb(71, 145, 163);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gd-container {
+  width: 800px;
+  padding-bottom: 13px;
+  padding-top: 75px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.gd {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+.md-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding-top: 50px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.md {
+  padding-right: 30px;
+  padding-top: 5px;
+  height: 40px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(182, 182, 182);
+  text-align: left;
+}
+
+.md-github {
+  color: rgb(182, 182, 182);
+  padding-top: 5px;
+  font-size: 25px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.md-github:hover {
+  color: rgb(226, 110, 183);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.maskdude-img-container {
+  position: relative;
+  width: 800px;
+}
+
+.maskdude {
+  opacity: 1;
+  display: block;
+  width: 800px;
+  height: auto;
+  padding: 13px 0;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.maskdude:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.md-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.maskdude-img-container:hover .maskdude {
+  opacity: 0.4;
+}
+
+.maskdude-img-container:hover .md-middle {
+  opacity: 1;
+}
+
+.md-text {
+  border-radius: 8px;
+  background-color: rgb(226, 110, 183);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -272,6 +383,30 @@ a {
   }
 
   .starknights {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gd-container {
+    width: 650px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .md-container {
+    width: 650px;
+  }
+
+  .maskdude-img-container {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .maskdude {
     width: 650px;
     height: auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -370,6 +505,37 @@ a {
   }
 
   .starknights {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gd-container {
+    width: 92vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gd {
+    font-size: 5vw;
+    color: white;
+  }
+
+  .md-container {
+    width: 92vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .maskdude-img-container {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .maskdude {
     width: 92vw;
     height: auto;
     -webkit-transition: all 0.3s ease-in-out;
