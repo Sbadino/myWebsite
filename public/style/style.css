@@ -78,6 +78,16 @@ a {
   background-color: white;
 }
 
+.section-separator {
+  display: block;
+  width: 800px;
+  height: 1px;
+  margin: 40px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 .my-name-container {
   padding-top: 40px;
 }
@@ -348,6 +358,12 @@ a {
     transition: all 0.3s ease-in-out;
   }
 
+  .section-separator {
+    width: 650px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
   .my-name {
     color: white;
     font-size: 4rem;
@@ -475,6 +491,12 @@ a {
   }
 
   .separator {
+    width: 92vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .section-separator {
     width: 92vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
