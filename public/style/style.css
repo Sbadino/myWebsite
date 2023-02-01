@@ -82,7 +82,8 @@ a {
   display: block;
   width: 800px;
   height: 1px;
-  margin: 40px auto;
+  margin-bottom: 25px;
+  margin-top: 40px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
@@ -177,7 +178,7 @@ a {
 }
 
 .strk-github:hover {
-  color: rgb(71, 145, 163);
+  color: rgb(140, 112, 61);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition: all 0.2s ease-in-out;
@@ -232,7 +233,7 @@ a {
 
 .strk-text {
   border-radius: 8px;
-  background-color: rgb(71, 145, 163);
+  background-color: rgb(140, 112, 61);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -243,7 +244,6 @@ a {
 .gd-container {
   width: 800px;
   padding-bottom: 13px;
-  padding-top: 75px;
   text-align: left;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
