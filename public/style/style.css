@@ -351,6 +351,53 @@ a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.ea-artstation {
+  color: rgb(182, 182, 182);
+  padding-top: 5px;
+  font-size: 25px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.ea-artstation:hover {
+  color: rgb(53, 195, 223);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-container {
+  width: 800px;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  padding: 0;
+  max-width: 800px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-images img {
+  display: block;
+  float: left;
+  flex: 0 0 auto;
+  width: calc(100%/2);
+  height: calc(100%/2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 @media(max-width: 900px) {
   .separator {
     width: 650px;
@@ -425,6 +472,27 @@ a {
   .maskdude {
     width: 650px;
     height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-container {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-images {
+    width: 650px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-images img {
+    width: calc(100%/2);
+    height: calc(100%/2);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -558,6 +626,27 @@ a {
   }
 
   .maskdude {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-container {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-images {
+    width: 92vw;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-images img {
     width: 92vw;
     height: auto;
     -webkit-transition: all 0.3s ease-in-out;
