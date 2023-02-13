@@ -351,6 +351,28 @@ a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.ea-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.ea {
+  padding-right: 30px;
+  padding-top: 5px;
+  height: 40px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(182, 182, 182);
+  text-align: left;
+}
+
 .ea-artstation {
   color: rgb(182, 182, 182);
   padding-top: 5px;
@@ -372,6 +394,7 @@ a {
 .gallery-container {
   width: 800px;
   margin: 0 auto;
+  padding-bottom: 200px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -495,6 +518,10 @@ a {
     height: calc(100%/2);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+  }
+
+  .ea-container {
+    width: 650px;
   }
 }
 
@@ -649,6 +676,12 @@ a {
   .gallery-images img {
     width: 92vw;
     height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ea-container {
+    width: 92vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
