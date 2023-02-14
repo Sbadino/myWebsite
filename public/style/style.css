@@ -376,6 +376,7 @@ a {
 .ea-artstation {
   color: rgb(182, 182, 182);
   padding-top: 5px;
+  padding-left: 10px;
   font-size: 25px;
   -webkit-transform: scale(1);
   transform: scale(1);
