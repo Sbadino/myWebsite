@@ -134,7 +134,7 @@
     <!-- End of Environment Artist -->
 
     <div id="overlay">
-      <form action="">
+      <form onsubmit="event.preventDefault(); validateForm()">
         <h1>Contact Me</h1>
 
         <label for="name">Name:</label>
@@ -150,7 +150,7 @@
         <small class="error"></small>
 
         <div class="center">
-          <input class="send-message" type="submit" value="Send message">
+          <input mailto="badino.santi@gmail.com" class="send-message" type="submit" value="Send message">
           <p id="success"></p>
         </div>
 

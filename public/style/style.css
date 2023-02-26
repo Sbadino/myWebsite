@@ -435,7 +435,7 @@ form {
   padding: 40px;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #000000;
+  color: white;
 }
 
 form h1 {
@@ -451,6 +451,7 @@ form label {
 
 input,
 textarea {
+  color: white;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -458,7 +459,7 @@ textarea {
   resize: none;
   border: none;
   background-color: #3a3a3a;
-  border-bottom: 1px solid #161616;
+  border-bottom: 1px solid #ffffff;
 }
 
 .send-message {
@@ -495,6 +496,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #success {
+  padding-top: 3px;
   color: green;
 }
 
