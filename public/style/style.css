@@ -764,6 +764,10 @@ textarea::-webkit-scrollbar-thumb {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
+
+  form {
+    width: 92vw;
+  }
 }
 
 @media(max-width: 400px) {
