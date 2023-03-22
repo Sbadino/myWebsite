@@ -133,7 +133,11 @@ a {
 }
 
 #fswd-reference {
-  display: nonce;
+  display: none;
+}
+
+#gd-reference {
+  display: none;
 }
 
 .fswd-container {
