@@ -132,6 +132,10 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
+#fswd-reference {
+  display: nonce;
+}
+
 .fswd-container {
   width: 800px;
   padding: 13px 0;
