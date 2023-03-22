@@ -144,6 +144,10 @@ a {
   display: none;
 }
 
+#ea-reference {
+  display: none;
+}
+
 .fswd-container {
   width: 800px;
   padding: 13px 0;
