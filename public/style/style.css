@@ -136,7 +136,7 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-#fswd-reference {
+/* #fswd-reference {
   display: none;
 }
 
@@ -146,7 +146,7 @@ a {
 
 #form-reference {
   display: none;
-}
+} */
 
 .fswd-container {
   width: 800px;
